@@ -70,5 +70,27 @@ margin: 0px;
 .btn-primary:hover{
     color: red;
     background-color: white;
-   
+}
+/* about us section */
+.section-title{
+    font-size: 45px;
+   text-align: center;
+   font-weight: bold;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+.about-banner-img img{
+    width: 250px;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.about-content{
+    width: 400px;
 }
