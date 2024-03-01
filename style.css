@@ -1,0 +1,74 @@
+/* marg{
+padding: 0px;
+margin: 0px;
+} */
+
+/* header section */
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #100e0e;
+    color: white;
+    padding: 20px; 
+}
+.menus{
+    list-style: none;
+    display: flex;  
+}
+.logo{
+    font-size: 25px;
+}
+.menu-item{
+    margin-right: 30px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.menu-item:hover{
+   color: red;
+   cursor: pointer;
+}
+/* main content section */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* background-image: url('./img/background.jpg'); */
+    /* background-image: url('./img/background.jpg'),linear-gradient(45deg,rgb(8, 8, 8),rgb(7, 4, 4)); */
+    /* background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #292828;
+    color: white;
+}
+.banner-content{
+    width: 500px;
+}
+.banner-img img{
+    width: 400px;
+}
+.banner-title{
+    font-size: 45px ;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.banner-desc{
+    font-size: 18px ;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.btn-primary{
+    padding: 10px 20px;
+    background-color: red;
+    border: 0;
+    margin-top: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn-primary:hover{
+    color: red;
+    background-color: white;
+   
+}
