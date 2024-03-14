@@ -94,3 +94,38 @@ margin: 0px;
 .about-content{
     width: 400px;
 }
+
+/* services section */
+.services{
+    background: #1d1d1d;
+}
+#services-title{
+    color: white;
+    padding: 25px 0px;
+}
+.box-container{
+ display: flex;
+ justify-content:space-evenly;
+}
+.box{
+    background: #000;
+    color: white;
+    width: 200px;
+    height: 220px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: rgba(255, 253, 253, 0.35) 0px 5px 45px;
+}
+/* footer section */
+.footer-container{
+    background: #000;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-top: 60px ;
+    padding: 30px 0;
+}
+.footer-content{
+    color: gainsboro;
+}
